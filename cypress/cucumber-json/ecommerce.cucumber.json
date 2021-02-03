@@ -1,0 +1,136 @@
+[
+  {
+    "description": "    application Regression",
+    "keyword": "Feature",
+    "name": "End to end Ecommerce validation",
+    "line": 1,
+    "id": "end-to-end-ecommerce-validation",
+    "tags": [],
+    "uri": "ecommerce.feature",
+    "elements": [
+      {
+        "id": "end-to-end-ecommerce-validation;ecommerce-products-delivery",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Ecommerce products delivery",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open ECommerce Page",
+            "result": {
+              "status": "failed",
+              "duration": 171000000,
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nundefined/angularpractice/\n\nWe failed looking for this file at the path:\n\n/Users/divyang.madanbhai.SPIKA/Desktop/Cypress/undefined/angularpractice/\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at http://localhost:63016/__cypress/runner/cypress_runner.js:157855:25\n    at visitFailedByErr (http://localhost:63016/__cypress/runner/cypress_runner.js:157231:12)\n    at http://localhost:63016/__cypress/runner/cypress_runner.js:157835:13\n    at tryCatcher (http://localhost:63016/__cypress/runner/cypress_runner.js:10609:23)\n    at Promise._settlePromiseFromHandler (http://localhost:63016/__cypress/runner/cypress_runner.js:8544:31)\n    at Promise._settlePromise (http://localhost:63016/__cypress/runner/cypress_runner.js:8601:18)\n    at Promise._settlePromise0 (http://localhost:63016/__cypress/runner/cypress_runner.js:8646:10)\n    at Promise._settlePromises (http://localhost:63016/__cypress/runner/cypress_runner.js:8722:18)\n    at _drainQueueStep (http://localhost:63016/__cypress/runner/cypress_runner.js:5316:12)\n    at _drainQueue (http://localhost:63016/__cypress/runner/cypress_runner.js:5309:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:63016/__cypress/runner/cypress_runner.js:5325:5)\n    at Async.drainQueues (http://localhost:63016/__cypress/runner/cypress_runner.js:5195:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:63016/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:62:6)\n    at Context.resolveAndRunStepDefinition (http://localhost:63016/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:13780:9)\n    at Context.eval (http://localhost:63016/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:13121:35)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:63016/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:62:6)\n    at Context.resolveAndRunStepDefinition (http://localhost:63016/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:13780:9)\n    at Context.eval (http://localhost:63016/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:13121:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I add items to Cart",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Validate the total prices",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "select the country submit and verify Thankyou",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-ecommerce-validation;filling-the-form-to-shop",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Filling the form to shop",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I open ECommerce Page",
+            "result": {
+              "status": "failed",
+              "duration": 600000000,
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nundefined/angularpractice/\n\nWe failed looking for this file at the path:\n\n/Users/divyang.madanbhai.SPIKA/Desktop/Cypress/undefined/angularpractice/\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at http://localhost:63016/__cypress/runner/cypress_runner.js:157855:25\n    at visitFailedByErr (http://localhost:63016/__cypress/runner/cypress_runner.js:157231:12)\n    at http://localhost:63016/__cypress/runner/cypress_runner.js:157835:13\n    at tryCatcher (http://localhost:63016/__cypress/runner/cypress_runner.js:10609:23)\n    at Promise._settlePromiseFromHandler (http://localhost:63016/__cypress/runner/cypress_runner.js:8544:31)\n    at Promise._settlePromise (http://localhost:63016/__cypress/runner/cypress_runner.js:8601:18)\n    at Promise._settlePromise0 (http://localhost:63016/__cypress/runner/cypress_runner.js:8646:10)\n    at Promise._settlePromises (http://localhost:63016/__cypress/runner/cypress_runner.js:8722:18)\n    at _drainQueueStep (http://localhost:63016/__cypress/runner/cypress_runner.js:5316:12)\n    at _drainQueue (http://localhost:63016/__cypress/runner/cypress_runner.js:5309:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:63016/__cypress/runner/cypress_runner.js:5325:5)\n    at Async.drainQueues (http://localhost:63016/__cypress/runner/cypress_runner.js:5195:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:63016/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:62:6)\n    at Context.resolveAndRunStepDefinition (http://localhost:63016/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:13780:9)\n    at Context.eval (http://localhost:63016/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:13121:35)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:63016/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:62:6)\n    at Context.resolveAndRunStepDefinition (http://localhost:63016/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:13780:9)\n    at Context.eval (http://localhost:63016/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:13121:35)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "gender"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "bobz",
+                      "Male"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I fill the form details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "validate the forms behaviour",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "select the Shop Page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
